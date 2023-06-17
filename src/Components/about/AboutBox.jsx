@@ -23,7 +23,7 @@ const AboutBox = () => {
         </div>
 
         <div className="about__box">
-            <i className="about__icon icon-pencil"></i>
+            <i className="about__icon icon-cup"></i>
 
             <div className="">
                 <h3 className="about__title">Lorem, ipsum</h3>
