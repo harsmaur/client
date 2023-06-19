@@ -23,14 +23,14 @@ const Menu = [
       id: 3,
       image: Work3,
       title: "Delivery App Wireframe",
-      category: "Branding",
+      category: "Personal",
     },
     
     {
       id: 4,
       image: Work4,
-      title: "Onboarding Motivation",
-      category: "Design",
+      title: "Contests Schedules",
+      category: "Creative",
     },
     
     {
@@ -43,8 +43,8 @@ const Menu = [
     {
       id: 6,
       image: Work6,
-      title: "Game Store App Concept",
-      category: "Personal",
+      title: "TextUtils - A text Analyser",
+      category: "Creative",
     }
   ];
 export default Menu
