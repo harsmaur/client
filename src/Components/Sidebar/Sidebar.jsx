@@ -5,6 +5,7 @@ import Logo from '../../assets/h-low-resolution-logo-black-on-white-background.s
 
 const Sidebar = () => {
   return(
+    <>
     <aside className='aside'>
       <a href="#home" className="nav__logo">
         <img src={Logo} alt="" />
@@ -62,7 +63,13 @@ const Sidebar = () => {
       <div className="nav__footer">
         <span className="copyright"> &copy; 2023 harsmaur</span>
       </div>
+      
     </aside>
+
+    <div className="nav__toggle">
+      <i className="icon-menu"></i>
+    </div>
+    </>
   )
 }
 

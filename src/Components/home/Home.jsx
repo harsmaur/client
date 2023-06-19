@@ -7,7 +7,7 @@ import Shapes from './Shapes'
 
 const Home = () => {
   return (
-    <section className="home container">
+    <section className="home container " id='home'>
 
 
       <div className="intro">
