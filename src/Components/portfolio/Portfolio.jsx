@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './Portfolio.css'
 import Menu from './Menu'
 
-const Portfolio = () => {
+  const Portfolio = () => {
   const [items, setItems] = useState(Menu);
 
   const filterItem =(categoryItem)=>{
@@ -16,7 +16,7 @@ const Portfolio = () => {
   }
   return (
     
-    <section className="work container section">
+    <section className="work container section" id='portfolio'>
 
       <h2 className="section__title">Recent Works</h2>
       <div className="work__filters">

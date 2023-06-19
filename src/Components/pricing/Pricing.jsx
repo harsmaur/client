@@ -6,7 +6,7 @@ import image3 from '../../assets/price-3.svg'
 const Pricing = () => {
   return (
     
-    <section className="pricing container section">
+    <section className="pricing container section" id=''>
         
         <h2 className="section__title">Pricing Plans</h2>
 
