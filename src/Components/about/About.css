@@ -129,6 +129,30 @@
             grid-template-columns: 1fr;
             row-gap: 1.875rem;
          }
+
+         .about__boxes{
+            grid-template-columns: repeat(2, 150px);
+            row-gap: 1.5rem;
+            justify-content: center;
+
+         }
+         
   }
 
- 
+  @media screen and (max-width: 576px){
+    .about__container{
+        grid-template-columns: 320px;
+       
+    }
+
+    
+}
+
+@media screen and (max-width: 350px){
+    .about__container{
+        grid-template-columns: 1fr;
+       
+    }
+
+    
+}

@@ -18,7 +18,7 @@ const Tdata = [
       'Lorem lorem5 jwherj wrjkb3r  ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolor alias a officiis, incidunt porro vitae eius eveniet ut necessitatibus at hic eaque, eum illo labore quaerat minus molestiae beatae. 👍',
     },
     {
-      id: 2,
+      id: 3,
       image: Image3,
       title: "John Doe",
       subtitle: "Product designer at Dribble",
@@ -26,7 +26,7 @@ const Tdata = [
         "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
     },
     {
-      id: 2,
+      id: 4,
       image: Image3,
       title: "John Doe",
       subtitle: "Product designer at Dribble",
@@ -34,7 +34,7 @@ const Tdata = [
         "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
     },
     {
-        id: 1,
+        id: 5,
         image: Image1,
         title: "John Doe",
         subtitle: "Product designer at Dribble",
@@ -42,7 +42,7 @@ const Tdata = [
           'Lorem lorem5 jwherj wrjkb3r  ipsum dolor sit amet consectetur adipisicing.',
       },
       {
-        id: 1,
+        id: 6,
         image: Image1,
         title: "John Doe",
         subtitle: "Product designer at Dribble",
@@ -50,7 +50,7 @@ const Tdata = [
           'Lorem lorem5 jwherj wrjkb3r  ipsum dolor sit amet consectetur adipisicing.',
       },
       {
-        id: 1,
+        id: 7,
         image: Image1,
         title: "John Doe",
         subtitle: "Product designer at Dribble",
