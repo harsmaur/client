@@ -1,9 +1,39 @@
 import React from 'react'
 import './Contact.css'
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
 const Contact = () => {
+
+  const notify = () => toast.success('Message Sent!', {
+    position: "top-right",
+    autoClose: 1300,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+    });
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_89r5wte", 'template_z77qvcn', form.current, 'hRHGRrBCJa6ODl0hX')
+      .then((result) => {
+        notify()
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
 
   return (
 
@@ -16,16 +46,16 @@ const Contact = () => {
           <h3 className="contact title">Send me a mesaage</h3>
           <p className="contact__details">Dont like Forms? Send me an email</p>
          </div>
-         <form action="" className="contact__form">
+         <form action="" className="contact__form" ref={form} onSubmit={sendEmail}>
           <div className="contact__form-group">
 
 
             <div className="contact__form-div">
-              <input type="text" className="contact__form-input" placeholder='Insert your name'/>
+              <input type="text" name='user_name' className="contact__form-input" placeholder='Insert your name' required/>
             </div>
 
             <div className="contact__form-div">
-              <input type="email" className="contact__form-input" placeholder='Insert your email'/>
+              <input type="email" name='user_email' className="contact__form-input" placeholder='Insert your email' required/>
             </div>
 
 
@@ -33,17 +63,17 @@ const Contact = () => {
           </div>
 
            <div className="contact__form-div">
-              <input type="text" className="contact__form-input" placeholder='Insert your Subject'/>
+              <input type="text" className="contact__form-input" name='user_subject' placeholder='Insert your Subject' required/>
             </div>
    
             <div className="contact__form-div  contact__form-area">
-             <textarea name="" id="" cols="30" rows="10" className='contact__form-input' placeholder='Write Your Message'></textarea>
+             <textarea  id="" cols="30" rows="10" name='message' className='contact__form-input' placeholder='Write Your Message' required></textarea>
             </div>
             
-            <button className="btn">Send Meassage</button>
+            <button className="btn" value='Send'>Send Meassage</button>
          </form>
       </div>
-
+      <ToastContainer />
     </section>
 
   )

@@ -4,6 +4,7 @@ import aboutimg from '../../assets/avatar-2.svg'
 import AboutBox from './AboutBox';
 
 const About = () => {
+  
   return (
     <section className="about container section" id='about'>
 
@@ -17,7 +18,7 @@ const About = () => {
 
             <p className="about__description">Hello! I'm Harsh, a passionate Frontend Web Developer.I thrive on turning ideas into tangible digital experiences. I specialize in building responsive and visually stunning interfaces that leave a lasting impact.</p>
 
-            <a href="" className="btn">Download Resume</a>
+            <a href="HarshMaurya_InternshalaResume (1).pdf" download='HarshMaurya_InternshalaResume (1).pdf' className="btn">Download Resume</a>
           </div>
 
           <div className="about__skills grid">
