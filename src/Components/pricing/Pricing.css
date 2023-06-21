@@ -1,16 +1,16 @@
 .pricing__container{
-    grid-template-columns: repeat(3, 1fr);
-    /* column-gap: 1.875rem; */
+    grid-template-columns: repeat(6, 1fr);
+    /* column-gap: 0.1rem; */
 
 }
 
 .pricing__item{
-    padding: 1.875rem 2.5rem;
-    background-color: var(--container-color);
+   
+    background-color: inherit;
     text-align: center;
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow);
-    column-gap: 1.875rem;
+    /* box-shadow: var(--shadow); */
+    column-gap: 0.9rem;
 
 }
 
@@ -24,6 +24,9 @@
     margin-bottom: 1rem;
 }
 
+.pricing__img{
+  object-fit: cover;
+}
 .price{
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
