@@ -18,7 +18,9 @@ const Home = () => {
         <TypeAnimation
   sequence={[
     // Same substring at the start will only be typed once, initially
-    "I'm a Frontend Developer.",
+   
+    "Undergrad at MITS",
+    "A Passionate MERN Developer.",
     1000,
     '',
     1000

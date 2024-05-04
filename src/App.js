@@ -5,9 +5,9 @@ import About from './Components/about/About';
 import Home from './Components/home/Home';
 import Portfolio from './Components/portfolio/Portfolio';
 import Resume from './Components/resume/Resume';
-import Services from './Components/services/Services';
-import Pricing from './Components/pricing/Pricing'
-import Testimonials from './Components/testimonials/Testimonials';
+// import Services from './Components/services/Services';
+// import Pricing from './Components/pricing/Pricing'
+// import Testimonials from './Components/testimonials/Testimonials';
 import Blog from './Components/blog/Blog'
 import Contact from './Components/contact/Contact';
 
@@ -20,11 +20,11 @@ const App = ()=> {
     <main className='main'>
          <Home />
          <About />
-         <Services />
+         {/* <Services /> */}
          <Resume />
          <Portfolio />
-         <Pricing />
-         <Testimonials />
+         {/* <Pricing /> */}
+         {/* <Testimonials /> */}
          <Blog />
          <Contact />
     </main>

@@ -22,7 +22,7 @@ const AboutBox = () => {
             </div>
         </div>
 
-        <div className="about__box">
+        {/* <div className="about__box">
             <i className="about__icon icon-cup"></i>
 
             <div className="">
@@ -38,7 +38,7 @@ const AboutBox = () => {
                 <h3 className="about__title">Lorem, ipsum</h3>
                 <span className="about__subtitle">Lorem, ipsum.</span>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

@@ -16,46 +16,46 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
 
-            <p className="about__description">Hello! I'm Harsh, a passionate Frontend Web Developer.I thrive on turning ideas into tangible digital experiences. I specialize in building responsive and visually stunning interfaces that leave a lasting impact.</p>
+            <p className="about__description">Hello, I'm Harsh Maurya, currently in my third year of pursuing a Bachelor's in Computer Science. With a strong foundation in programming, I specialize in C++ and object-oriented programming principles.And  MERN stack Development. Solving problems in tech.I am a ML enthusiast exploring the world of AI and machine Learning</p>
 
-            <a href="HarshMaurya_InternshalaResume (1).pdf" download='HarshMaurya_InternshalaResume (1).pdf' className="btn">Download Resume</a>
+            <a href="HarshResume1.pdf" download='HarshResume1.pdf' className="btn">Download Resume</a>
           </div>
 
           <div className="about__skills grid">
-
+          
               <div className="skills__data">
                 <div className="skills__titles">
-                  <h3 className="skills__name">Web Development</h3>
-                  <span className="skills__number">90%</span>
+                  <h3 className="skills__name">Web Development uisng MERN</h3>
+                  {/* <span className="skills__number">90%</span> */}
                 </div>
                 
-                 <div className="skills__bar">
+                 {/* <div className="skills__bar">
                   <span className="skills__percentage development"></span>
-                 </div>
+                 </div> */}
               </div>
 
 
               <div className="skills__data">
                 <div className="skills__titles">
                   <h3 className="skills__name">Problem Solving</h3>
-                  <span className="skills__number ">40%</span>
+                  {/* <span className="skills__number ">40%</span> */}
                 </div>
                 
-                 <div className="skills__bar">
+                 {/* <div className="skills__bar">
                   <span className="skills__percentage psolving"></span>
-                 </div>
+                 </div> */}
               </div>
 
 
               <div className="skills__data">
                 <div className="skills__titles">
-                  <h3 className="skills__name">Designing</h3>
-                  <span className="skills__number">60%</span>
+                  <h3 className="skills__name">Exploring</h3>
+                  {/* <span className="skills__number">60%</span> */}
                 </div>
                 
-                 <div className="skills__bar">
+                 {/* <div className="skills__bar">
                   <span className="skills__percentage ui__design"></span>
-                 </div>
+                 </div> */}
               </div>
 
 
