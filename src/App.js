@@ -8,7 +8,7 @@ import Resume from './Components/resume/Resume';
 // import Services from './Components/services/Services';
 // import Pricing from './Components/pricing/Pricing'
 // import Testimonials from './Components/testimonials/Testimonials';
-import Blog from './Components/blog/Blog'
+// import Blog from './Components/blog/Blog'
 import Contact from './Components/contact/Contact';
 
 
@@ -25,7 +25,7 @@ const App = ()=> {
          <Portfolio />
          {/* <Pricing /> */}
          {/* <Testimonials /> */}
-         <Blog />
+         {/* <Blog /> */}
          <Contact />
     </main>
     

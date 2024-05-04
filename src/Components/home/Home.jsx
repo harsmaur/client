@@ -12,7 +12,7 @@ const Home = () => {
 
       <div className="intro">
         <img src={Me} alt="" className="home__img" />
-        <h1 className="home__name">Harsh Maurya</h1>
+        <strong><h1 className="home__name">Harsh Maurya</h1></strong>
 
         <span className="home__education">
         <TypeAnimation
