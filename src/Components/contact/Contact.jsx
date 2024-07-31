@@ -16,7 +16,7 @@ const Contact = () => {
     pauseOnHover: true,
     draggable: true,
     progress: undefined,
-    theme: "light",
+    theme: "light", 
     });
 
   const form = useRef();
