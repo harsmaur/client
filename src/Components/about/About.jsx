@@ -18,7 +18,7 @@ const About = () => {
 
             <p className="about__description">Hello, I'm Harsh Maurya, currently in my third year of pursuing a Bachelor's in Computer Science. With a strong foundation in programming, I specialize in C++ and object-oriented programming principles and  MERN stack Development. Solving problems in tech.I am a ML enthusiast exploring the world of AI and machine Learning</p>
 
-            <a href="HarshResume1.pdf" download='HarshResume1.pdf' className="btn">Download Resume</a>
+            <a href="HarshMauryaResume(2).pdf" download='HarshMauryaResume(2).pdf' className="btn">Download Resume</a>
           </div>
 
           <div className="about__skills grid">
